@@ -230,6 +230,9 @@ ol {
   line-height: 1.71;
 }
 /* WHAT WE DO SECTION */
+.what-we-do {
+  padding-top: 0;
+}
 .what-we-do-list {
   display: flex;
   gap: 30px;
