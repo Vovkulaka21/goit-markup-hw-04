@@ -314,9 +314,12 @@ ol {
 .portfolio-card {
   width: 370px;
   background-color: var(--main-color);
-  border: 1px solid #eeeeee;
 }
 .portfolio-card-position {
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  padding: 20px 24px;
   padding: 20px 24px;
 }
 .portfolio-title {
