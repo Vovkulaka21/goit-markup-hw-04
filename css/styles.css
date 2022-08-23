@@ -165,6 +165,7 @@ ol {
 .order-service {
   background-color: var(--secondary-color);
   background-image: url(/images/our-services-background.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 .order-service {
