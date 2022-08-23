@@ -278,6 +278,15 @@ ol {
   line-height: 1.19;
   text-align: center;
 }
+/* OUR-CUSTOMERS */
+.title-our-customers {
+  margin-bottom: 50px;
+  font-weight: var(--font-weight-bold);
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  color: var(--second-text-color);
+}
 /* PORTFOLIO PAGE */
 .portfolio-nav-list {
   margin-bottom: 50px;
