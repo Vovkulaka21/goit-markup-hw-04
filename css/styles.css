@@ -83,7 +83,7 @@ ol {
 .header-list {
   margin-left: auto;
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 .logotype {
   margin-right: 93px;
@@ -103,6 +103,7 @@ ol {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
+
 .header-navigation:hover,
 .header-navigation:focus {
   color: var(--accent-color);
@@ -111,11 +112,21 @@ ol {
   color: var(--accent-color);
 }
 .header-contact {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: var(--font-weight-stnd);
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+.envelope {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.smartphone {
+  margin-right: 10px;
+  fill: currentColor;
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -290,6 +301,30 @@ ol {
   line-height: 1.67;
   text-align: center;
   color: var(--second-text-color);
+}
+.our-customers-list {
+  display: flex;
+  gap: 30px;
+}
+.customer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.customer-icon {
+  fill: #AFB1B8;
+}
+.customer-link:hover,
+.customer-link:focus {
+  color: var(--accent-color);
+}
+.customer-icon:hover,
+.customer-icon:focus {
+  fill: currentColor;
 }
 /* PORTFOLIO PAGE */
 .portfolio-nav-list {
