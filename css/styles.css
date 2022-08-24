@@ -221,6 +221,14 @@ ol {
   background: #188ce8;
 }
 /* OUR FEATURES SECTION */
+.features-box {
+  height: 120px;
+  background-color: var(--alternative-bakcground-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
 .our-features-list {
   display: flex;
   justify-content: space-between;
