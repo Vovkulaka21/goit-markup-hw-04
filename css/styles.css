@@ -138,6 +138,9 @@ ol {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.page-footer .container {
+  display: flex;
+}
 .studio-logo-footer {
   display: inline-block;
   margin-bottom: 20px;
@@ -151,10 +154,8 @@ ol {
 .one-word-color {
   color: var(--accent-color);
 }
-.footer-list {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
+.footer-item:nth-child(-n + 2) {
+  margin-bottom: 9px;
 }
 .studio-address,
 .address-link {
@@ -171,6 +172,36 @@ ol {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
+}
+.footer-text {
+  margin-right: 70px;
+}
+.footer-title {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--stnd-font-size);
+  line-height: 1.42;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+.footer-social-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-social-list .social-links {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);;
+}
+.footer-social-list .social-links:hover,
+.footer-social-list .social-links:focus {
+  background-color: var(--accent-color);
+}
+.social-icon-footer {
+  fill: var(--main-color);
 }
 /*MAIN PAGE*/
 .order-service {
@@ -350,16 +381,16 @@ ol {
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 .customer-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 .customer-link:hover .customer-icon,
 .customer-link:focus .customer-icon {
   fill: var(--accent-color);
-  }
+}
 .customer-link:hover,
 .customer-link:focus {
   border-color: var(--accent-color);
