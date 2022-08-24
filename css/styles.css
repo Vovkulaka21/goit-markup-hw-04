@@ -293,6 +293,30 @@ ol {
   font-size: var(--font-size-big);
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 16px;
+}
+.social-links-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.social-icon {
+  fill: var(--text-color);
+}
+.social-links:hover,
+.social-links:focus {
+  background-color: var(--accent-color);
+}
+.social-links:hover .social-icon,
+.social-links:focus .social-icon {
+  fill: var(--main-color);
 }
 /* OUR-CUSTOMERS */
 .title-customers {
@@ -322,13 +346,13 @@ ol {
 .customer-icon {
   fill: #AFB1B8;
 }
+.customer-link:hover .customer-icon,
+.customer-link:focus .customer-icon {
+  fill: var(--accent-color);
+  }
 .customer-link:hover,
 .customer-link:focus {
   border-color: var(--accent-color);
-}
-.customer-icon:hover,
-.customer-icon:focus {
-  fill: var(--accent-color);
 }
 /* PORTFOLIO PAGE */
 .portfolio-nav-list {
