@@ -306,6 +306,9 @@ ol {
   display: flex;
   gap: 30px;
 }
+.customer-item {
+  flex-basis: calc((100%-150px) / 6);
+}
 .customer-link {
   display: flex;
   justify-content: center;
