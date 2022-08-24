@@ -294,7 +294,7 @@ ol {
   text-align: center;
 }
 /* OUR-CUSTOMERS */
-.title-our-customers {
+.title-customers {
   margin-bottom: 50px;
   font-weight: var(--font-weight-bold);
   font-size: 36px;
@@ -302,7 +302,7 @@ ol {
   text-align: center;
   color: var(--second-text-color);
 }
-.our-customers-list {
+.customers-list {
   display: flex;
   gap: 30px;
 }
