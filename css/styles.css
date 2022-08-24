@@ -320,11 +320,11 @@ ol {
 }
 .customer-link:hover,
 .customer-link:focus {
-  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 .customer-icon:hover,
 .customer-icon:focus {
-  fill: currentColor;
+  fill: var(--accent-color);
 }
 /* PORTFOLIO PAGE */
 .portfolio-nav-list {
