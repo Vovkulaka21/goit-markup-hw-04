@@ -79,11 +79,12 @@ ol {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .header-list {
   margin-left: auto;
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 .logotype {
   margin-right: 93px;
@@ -110,6 +111,10 @@ ol {
 }
 .current {
   color: var(--accent-color);
+}
+.header-list-contact {
+  display: flex;
+  gap: 30px;
 }
 .header-contact {
   display: flex;
@@ -386,7 +391,7 @@ ol {
   border-radius: 4px;
 }
 .customer-icon {
-  fill: #afb1b8;
+  fill: #AFB1B8;
 }
 .customer-link:hover .customer-icon,
 .customer-link:focus .customer-icon {
