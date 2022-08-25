@@ -114,7 +114,7 @@ ol {
 }
 .header-list-contact {
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 .header-contact {
   display: flex;
