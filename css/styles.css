@@ -145,6 +145,7 @@ ol {
 }
 .page-footer .container {
   display: flex;
+  align-items: baseline;
 }
 .studio-logo-footer {
   display: inline-block;
